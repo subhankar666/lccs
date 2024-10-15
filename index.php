@@ -203,9 +203,32 @@
                 <div class="col-lg-6">
                     <!-- Hero Image Start -->
                     <div class="hero-image">
-                        <figure>
+                        <!-- <figure>
                             <img src="images/hero-img.png" alt="">
-                        </figure>
+                        </figure> -->
+                        <p></p>
+                        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post"  class="Log-container">       
+                        
+                            <h2>Sign In</h2>
+                    
+                            <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                                    <label>Username</label>
+                                    <input type="text" name="username"   class="form-control" value="<?php echo $username; ?>">
+                                    <span class="help-block"><?php echo $username_err; ?></span>
+                            </div>    
+                            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                                    <label>Password</label>
+                                    <input type="password" name="password" class="form-control">
+                                    <span class="help-block"><?php echo $password_err; ?></span>
+                            </div>
+                            
+                            <div class="form-group"> 
+                            <!--      <input type="submit" class="btn btn-primary" value="Sign in"> -->
+                                <button type="submit" class="btn-default btn-highlighted ms-0 me-2">Sign in</button>
+                                <a class="btn-default" href=" https://www.limited-company-contractor-solutions.co.uk/SignUp/SignUp1.php" >Sign up</a>
+                            </div>
+                            <!-- <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>  -->
+                        </form>
                     </div>
                     <!-- Hero Image End -->
                 </div>
@@ -1091,7 +1114,7 @@
     <script src="js/SmoothScroll.js"></script>
     <!-- MagicCursor js file -->
     <script src="js/gsap.min.js"></script>
-    <script src="js/magiccursor.js"></script>
+    <!-- <script src="js/magiccursor.js"></script> -->
     <!-- Text Effect js file -->
     <script src="js/SplitText.js"></script>
     <script src="js/ScrollTrigger.min.js"></script>
