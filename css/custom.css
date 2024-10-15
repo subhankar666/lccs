@@ -3058,7 +3058,64 @@ header.main-header {
 	font-size: 50px;
 	margin-bottom: 30px;
 }
+.hero-image form {
+    text-align: left;
+    width: calc(100% - 80px);
+    padding: 30px;
+    margin-left: auto;
+    background: #28aee4;
+    border-radius: 8px;
+	position: relative;
+	overflow: hidden;
+	z-index: 2;
+}
 
+
+
+.hero-image form h2 {
+    margin-bottom: 20px;
+	color: #fff;
+}
+
+.hero-image form .form-group {
+    margin-bottom: 20px;
+}
+
+.hero-image form label {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero-image form:before {
+    content: "";
+    background: #00405a99;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.hero-image form:after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -2;
+    /* border-radius: 50%; */
+    bottom: 0;
+    right: 0;
+    background-image: url(../images/why-choose-us-img.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+
+.hero-image form .form-group:last-child {
+    display: flex;
+    align-items: center;
+}
 /************************************/
 /***      25. responsive css      ***/
 /************************************/
@@ -3112,7 +3169,9 @@ header.main-header {
 }
 
 @media only screen and (max-width: 991px) {
-
+	.hero-image form {
+		width: 100%;
+	}
 	#magic-cursor {
 		display: none !important;
 	}
