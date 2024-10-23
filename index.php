@@ -1,164 +1,5 @@
-<!DOCTYPE html>
-<html lang="zxx" style="">
-
-<head>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Awaiken">
-    <!-- Page Title -->
-    <title>LCCS - Accounting &amp; Finance Company</title>
-    <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
-    <!-- Google Fonts Css-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap"
-        rel="stylesheet">
-    <!-- Bootstrap Css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <!-- SlickNav Css -->
-    <link href="css/slicknav.min.css" rel="stylesheet">
-    <!-- Swiper Css -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <!-- Font Awesome Icon Css-->
-    <link href="css/all.min.css" rel="stylesheet" media="screen">
-    <!-- Animated Css -->
-    <link href="css/animate.css" rel="stylesheet">
-    <!-- Magnific Popup Core Css File -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <!-- Main Custom Css -->
-    <link href="css/custom.css" rel="stylesheet" media="screen">
-</head>
-
-<body class="tt-magic-cursor">
-
-    <!-- Preloader Start -->
-    <div class="preloader" style="display: none;">
-        <div class="loading-container">
-            <div class="loading"></div>
-            <div id="loading-icon"><img src="images/loader.svg" alt=""></div>
-        </div>
-    </div>
-    <!-- Preloader End -->
-
-    <!-- Magic Cursor Start -->
-    <div id="magic-cursor" style="opacity: 0; visibility: hidden;">
-        <div id="ball"
-            style="opacity: 0.5; border-width: 2px; height: 34px; width: 34px; transform: translate(-50%, -50%) translate(602px, 344px);">
-            <div class="circle"></div>
-        </div>
-    </div>
-    <!-- Magic Cursor End -->
-
-    <!-- Header Start -->
-    <header class="main-header">
-        <div class="header-sticky">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <!-- Logo Start -->
-                    <a class="navbar-brand" href="./">
-                        <img src="images/Logo.png" alt="Logo">
-                    </a>
-                    <!-- Logo End -->
-
-                    <!-- Main Menu Start -->
-                    <div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item active"><a class="nav-link" href="javascript:void(0)">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Contact us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Make a referral</a>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Sign up</a></li>
-                                <!-- <li class="nav-item submenu ">
-                                    <a class="nav-link" href="#">pages</a>
-                                    <ul>
-                                        <li class="nav-item"><a class="nav-link" href="service-single.html">service
-                                                details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="blog-single.html">blog
-                                                details</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="faqs.html">FAQ</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="#">Book Now</a></li> -->
-                            </ul>
-                        </div>
-                        <!-- Let’s Start Button Start -->
-                        <div class="header-btn d-inline-flex">
-                            <a href="#" class="btn-default">Book a meeting</a>
-                        </div>
-                        <!-- Let’s Start Button End -->
-                    </div>
-                    <!-- Main Menu End -->
-
-                    <div class="navbar-toggle">
-                        <!-- <a href="#" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed" style="outline: none;">
-                            <span class="slicknav_menutxt"></span>
-                            <span class="slicknav_icon slicknav_no-text">
-                                <span class="slicknav_icon-bar"></span>
-                                <span class="slicknav_icon-bar"></span>
-                                <span class="slicknav_icon-bar"></span>
-                            </span>
-                        </a> -->
-                    </div>
-                </div>
-            </nav>
-            <div class="responsive-menu">
-                <div class="slicknav_menu">
-                    <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
-                        <li class="nav-item active"><a class="nav-link" href="javascript:void(0)" role="menuitem"
-                                tabindex="-1">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)" role="menuitem"
-                                tabindex="-1">about
-                                us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)" role="menuitem"
-                                tabindex="-1">Contact us
-                            </a></li>
-                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)" role="menuitem"
-                                tabindex="-1">Make a referral</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="javascript:void(0)" role="menuitem"
-                                tabindex="-1">Sign up</a></li>
-                        <!-- <li class="nav-item submenu slicknav_collapsed slicknav_parent">
-                            <a href="#" role="menuitem" aria-haspopup="true" tabindex="-1"
-                                class="slicknav_item slicknav_row" style="outline: none;">
-                                <a class="nav-link" href="#" tabindex="-1">pages</a>
-                                <span class="slicknav_arrow">►</span>
-                            </a>
-                            <ul role="menu" class="slicknav_hidden" aria-hidden="true" style="display: none;">
-                                <li class="nav-item"><a class="nav-link" href="service-single.html" role="menuitem"
-                                        tabindex="-1">service details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog-single.html" role="menuitem"
-                                        tabindex="-1">blog details</a></li>
-                                <li class="nav-item"><a class="nav-link" href="team.html" role="menuitem"
-                                        tabindex="-1">Our Team</a></li>
-                                <li class="nav-item"><a class="nav-link" href="pricing.html" role="menuitem"
-                                        tabindex="-1">Pricing</a></li>
-                                <li class="nav-item"><a class="nav-link" href="faqs.html" role="menuitem"
-                                        tabindex="-1">FAQ</a></li>
-                                <li class="nav-item"><a class="nav-link" href="404.html" role="menuitem"
-                                        tabindex="-1">404</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item highlighted-menu"><a class="nav-link" href="#" role="menuitem"
-                                tabindex="-1">Book Now</a></li> -->
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Header End -->
-
-    <!-- Hero Section Start -->
+<?php include 'header.php'?>
+<!-- Hero Section Start -->
     <div class="hero light-bg-section">
         <div class="container">
             <div class="row align-items-center">
@@ -182,7 +23,7 @@
                         <!-- Google Rating End -->
 
                         <div class="section-title">
-                            <h1 class="text-anime-style-3">Simple Fixed Price, Accounting and Tax for small business
+                            <h1 class="text-anime-style-3">Simple Fixed Price, Accounting and Tax<br/> <span class="text-anime-style-100">for small business</span>
                             </h1>
                         </div>
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s"
@@ -193,8 +34,8 @@
 
                         <div class="hero-content-footer wow fadeInUp" data-wow-delay="0.75s"
                             style="visibility: visible; animation-delay: 0.75s; animation-name: fadeInUp;">
-                            <a href="#" class="btn-default">Let us save you tax</a>
-                            <a href="#" class="btn-default btn-highlighted">Sign Up</a>
+                            <a href="make-a-referral.php" class="btn-default">Let us save you tax</a>
+                            <a href="signup.php" class="btn-default btn-highlighted">Sign Up</a>
                         </div>
                     </div>
                     <!-- Hero Left Content End -->
@@ -207,22 +48,22 @@
                             <img src="images/hero-img.png" alt="">
                         </figure> -->
                         <p></p>
-                        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post"  class="Log-container">       
-                        
+                        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post"  class="Log-container">
+
                             <h2>Sign In</h2>
-                    
+
                             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                                     <label>Username</label>
                                     <input type="text" name="username"   class="form-control" value="<?php echo $username; ?>">
                                     <span class="help-block"><?php echo $username_err; ?></span>
-                            </div>    
+                            </div>
                             <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                                     <label>Password</label>
                                     <input type="password" name="password" class="form-control">
                                     <span class="help-block"><?php echo $password_err; ?></span>
                             </div>
-                            
-                            <div class="form-group"> 
+
+                            <div class="form-group">
                             <!--      <input type="submit" class="btn btn-primary" value="Sign in"> -->
                                 <button type="submit" class="btn-default btn-highlighted ms-0 me-2">Sign in</button>
                                 <a class="btn-default" href=" https://www.limited-company-contractor-solutions.co.uk/SignUp/SignUp1.php" >Sign up</a>
@@ -271,7 +112,7 @@
                         <div class="about-image">
                             <figure class="image-anime reveal"
                                 style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-                                <img src="images/about-us-img.jpg" alt="" style="transform: translate(0px, 0px);">
+                                <img src="images/fa_1.jpg.webp" alt="" style="transform: translate(0px, 0px);">
                             </figure>
                         </div>
                         <!-- About Image End -->
@@ -354,27 +195,131 @@
                 <div class="col-lg-7">
                     <!-- Section Title Content Start -->
                     <div class="section-title-content wow fadeInUp" data-wow-delay="0.25s">
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                            voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
-                            cupiditate.</p>
+                        <p>Full Compliance package -£65 per month – everything you need to start, run and wind up a fully compliant, tax efficient limit company including:</p>
+
                     </div>
                     <!-- Section Title Content End -->
                 </div>
             </div>
 
             <div class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li>Unlimited Tax Reports, so you always know what you owe</li>
+                        <li>Free tax optimisation so you never pay more tax than you should</li>
+                        <li>Your annual company accounts</li>
+                        <li>Your annual company tax return</li>
+                        <li>Your annual company confirmation statement</li>
+                        <li>Your company VAT returns if necessary</li>
+                        <li>Annual personal tax returns for each director</li>
+                        <li>Unlimited advice on your personal and company tax affairs from a dedicated chartered accountant</li>
+                        <li>Free company formation to get you started if you need one, and registration for all necessary taxes</li>
+                        <li>Free company dissolution once you're done  (Business Asset Disposal Relief can be provided for an additional charge)</li>
+                        <li>Free UK company registered office address and director’s correspondence address</li>
+                        <li>Payroll for directors can be provided on the annual scheme for an extra £8 per director per month</li>
+                    </ul>
+                </div>
+
+                <div class="page-blog">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <!-- Blog Item Start -->
+                                <div class="blog-item wow fadeInUp" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
+                                    <!-- Post Featured Image Start-->
+                                    <div class="post-featured-image">
+                                        <figure class="image-anime">
+                                            <a href="product-details.php"><img src="images/post-1.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                    <!-- Post Featured Image End -->
+
+                                    <!-- post Item Body Start -->
+                                    <div class="post-item-body">
+                                        <h2><a href="product-details.php">Limited Company packages</a></h2>
+                                        <p>starting at <span class="product-price">£65</span> per month</p>
+                                    </div>
+                                    <!-- Post Item Body End-->
+
+                                    <!-- Post Item Footer Start-->
+                                    <div class="post-item-footer">
+                                        <a href="product-details.php" class="btn-default">read more</a>
+                                    </div>
+                                    <!-- Post Item Footer End-->
+                                </div>
+                                <!-- Blog Item End -->
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <!-- Blog Item Start -->
+                                <div class="blog-item wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                    <!-- Post Featured Image Start-->
+                                    <div class="post-featured-image">
+                                        <figure class="image-anime">
+                                            <a href="product-details.php"><img src="images/post-2.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                    <!-- Post Featured Image End -->
+
+                                    <!-- post Item Body Start -->
+                                    <div class="post-item-body">
+                                        <h2><a href="product-details.php">Self-Assessment / Self-employed packages</a></h2>
+                                        <p>starting at <span class="product-price">£15</span> per month</p>
+                                    </div>
+                                    <!-- Post Item Body End-->
+
+                                    <!-- Post Item Footer Start-->
+                                    <div class="post-item-footer">
+                                        <a href="product-details.php" class="btn-default">read more</a>
+                                    </div>
+                                    <!-- Post Item Footer End-->
+                                </div>
+                                <!-- Blog Item End -->
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <!-- Blog Item Start -->
+                                <div class="blog-item wow fadeInUp" data-wow-delay="0.75s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeInUp;">
+                                    <!-- Post Featured Image Start-->
+                                    <div class="post-featured-image">
+                                        <figure class="image-anime">
+                                            <a href="product-details.php"><img src="images/post-3.jpg" alt=""></a>
+                                        </figure>
+                                    </div>
+                                    <!-- Post Featured Image End -->
+
+                                    <!-- post Item Body Start -->
+                                    <div class="post-item-body">
+                                        <h2><a href="product-details.php">Umbrella packages</a></h2>
+                                        <p>starting at <span class="product-price">£22.50</span> per invoice</p>
+                                    </div>
+                                    <!-- Post Item Body End-->
+
+                                    <!-- Post Item Footer Start-->
+                                    <div class="post-item-footer">
+                                        <a href="product-details.php" class="btn-default">read more</a>
+                                    </div>
+                                    <!-- Post Item Footer End-->
+                                </div>
+                                <!-- Blog Item End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="col-md-4">
                     <!-- Service Item Start -->
                     <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
                         <div class="service-image">
                             <figure class="image-anime">
-                                <a href="#"><img src="images/service-img-1.jpg" alt=""></a>
+                                <a href="product-details.php"><img src="images/service-img-1.jpg" alt=""></a>
                             </figure>
                         </div>
                         <div class="service-content">
                             <h3>tax planning and preparation</h3>
                             <div class="service-readmore-btn">
-                                <a href="#" class="btn-default">read more</a>
+                                <a href="product-details.php" class="btn-default">read more</a>
                             </div>
                         </div>
                     </div>
@@ -386,13 +331,13 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-image">
                             <figure class="image-anime">
-                                <a href="#"><img src="images/service-img-2.jpg" alt=""></a>
+                                <a href="product-details.php"><img src="images/service-img-2.jpg" alt=""></a>
                             </figure>
                         </div>
                         <div class="service-content">
                             <h3>book keeping and accounting</h3>
                             <div class="service-readmore-btn">
-                                <a href="#" class="btn-default">read more</a>
+                                <a href="product-details.php" class="btn-default">read more</a>
                             </div>
                         </div>
                     </div>
@@ -404,24 +349,19 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
                         <div class="service-image">
                             <figure class="image-anime">
-                                <a href="#"><img src="images/service-img-3.jpg" alt=""></a>
+                                <a href="product-details.php"><img src="images/service-img-3.jpg" alt=""></a>
                             </figure>
                         </div>
                         <div class="service-content">
                             <h3>business advisory service</h3>
                             <div class="service-readmore-btn">
-                                <a href="#" class="btn-default">read more</a>
+                                <a href="product-details.php" class="btn-default">read more</a>
                             </div>
                         </div>
                     </div>
                     <!-- Service Item End -->
                 </div>
 
-                <!-- Services Footer Btn Start -->
-                <div class="service-footer-btn wow fadeInUp" data-wow-delay="0.5s">
-                    <a href="#" class="btn-default">view all products & services</a>
-                </div>
-                <!-- Services Footer Btn End -->
             </div>
         </div>
     </div>
@@ -569,7 +509,7 @@
                                 style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">At vero
                                 eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
                                 deleniti atque corrupti.</p>
-                            <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.5s"
+                            <a href="contact-us.php" class="btn-default wow fadeInUp" data-wow-delay="0.5s"
                                 style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">contact
                                 us</a>
                         </div>
@@ -973,156 +913,4 @@
     </div>
     <!-- Why Choose Us Section End -->
 
-
-
-    <!-- Footer Start -->
-    <footer class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Footer About Start -->
-                    <div class="footer-about">
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <!-- Footer Logo Start -->
-                                <div class="footer-logo">
-                                    <img src="images/footer-logo.png" alt="">
-                                </div>
-                                <!-- Footer Logo End -->
-                            </div>
-
-                            <div class="col-lg-7">
-                                <!-- Footer Title Start -->
-                                <div class="footer-title">
-                                    <h2>Trusted by businesses and individuals across the country</h2>
-                                </div>
-                                <!-- Footer Title End -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer End Start -->
-
-                    <!-- Footer Body Start -->
-                    <div class="footer-body">
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <!-- Subscribe Newsletter Start -->
-                                <div class="subscribe-newsletter">
-                                    <!-- Newsletter Title Start -->
-                                    <div class="newsletter-title">
-                                        <h3>newsletter signup</h3>
-                                    </div>
-                                    <!-- Newsletter Title End -->
-
-                                    <!-- Newsletters Form Start -->
-                                    <div class="newsletters-form">
-                                        <form id="newslettersForm" action="#" class="mail-box">
-                                            <input type="email" class="form-control" placeholder="Enter Your Email"
-                                                required="">
-                                        </form>
-                                        <div class="subscribe-btn">
-                                            <a href="#" class="btn-default">subscribe now</a>
-                                        </div>
-                                    </div>
-                                    <!-- Newsletters Form End -->
-                                </div>
-                                <!-- Subscribe Newsletter End -->
-                            </div>
-
-                            <div class="col-lg-7">
-                                <div class="row">
-                                    <div class="col-md-4 col-6">
-                                        <!-- Footer Links Start -->
-                                        <div class="footer-links">
-                                            <h2>quick links</h2>
-                                            <ul>
-                                                <li><a href="#">Home</a></li>
-                                                <li><a href="#">About Us</a></li>
-                                                <li><a href="#">Services</a></li>
-                                                <li><a href="#">Contact Us</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- Footer Links End -->
-                                    </div>
-
-                                    <div class="col-md-4 col-6">
-                                        <!-- Footer Links Start -->
-                                        <div class="footer-links">
-                                            <h2>Socials</h2>
-                                            <ul>
-                                                <li><a href="#">instagram</a></li>
-                                                <li><a href="#">facebook</a></li>
-                                                <li><a href="#">twitter</a></li>
-                                                <li><a href="#">linkedin</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- Footer Links End -->
-                                    </div>
-
-                                    <div class="col-md-4">
-                                        <!-- Footer Contact Start -->
-                                        <div class="footer-contact">
-                                            <h2>say hello</h2>
-                                            <ul>
-                                                <li><a href="#">info@domainname.com</a></li>
-                                                <li><a href="#">(+0) 123 456 789</a></li>
-                                            </ul>
-                                        </div>
-                                        <!-- Footer Contact End -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Body End -->
-
-                    <!-- Copyright Footer Start -->
-                    <div class="footer-copyright">
-                        <div class="row align-items-center">
-                            <div class="col-lg-12">
-                                <!-- Footer Copyright Content Start -->
-                                <div class="footer-copyright-text">
-                                    <p>copyright © 2024 wexico. all rights reserved.</p>
-                                </div>
-                                <!-- Footer Copyright Content End -->
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Copyright Footer End -->
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer End -->
-
-    <!-- Jquery Library File -->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Validator js file -->
-    <script src="js/validator.min.js"></script>
-    <!-- SlickNav js file -->
-    <script src="js/jquery.slicknav.js"></script>
-    <!-- Swiper js file -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <!-- Counter js file -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <!-- Magnific js file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- SmoothScroll -->
-    <script src="js/SmoothScroll.js"></script>
-    <!-- MagicCursor js file -->
-    <script src="js/gsap.min.js"></script>
-    <!-- <script src="js/magiccursor.js"></script> -->
-    <!-- Text Effect js file -->
-    <script src="js/SplitText.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
-    <!-- Wow js file -->
-    <script src="js/wow.js"></script>
-    <!-- Main Custom js file -->
-    <script src="js/function.js"></script>
-
-</body>
-
-</html>
+    <?php include 'footer.php'?>
