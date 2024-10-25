@@ -2732,7 +2732,7 @@ header.main-header {
 }
 
 .contact-info-content p {
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: 700;
 	color: var(--white-color);
 	margin: 0;
@@ -3119,8 +3119,12 @@ header.main-header {
 	align-items: center;
 }
 
+.service-content p {
+	color: #fff;
+}
+
 .product-price {
-	color: #ea6262;
+	color: #28afe4;
 	font-weight: 800;
 }
 

@@ -203,111 +203,6 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12">
-                    <ul>
-                        <li>Unlimited Tax Reports, so you always know what you owe</li>
-                        <li>Free tax optimisation so you never pay more tax than you should</li>
-                        <li>Your annual company accounts</li>
-                        <li>Your annual company tax return</li>
-                        <li>Your annual company confirmation statement</li>
-                        <li>Your company VAT returns if necessary</li>
-                        <li>Annual personal tax returns for each director</li>
-                        <li>Unlimited advice on your personal and company tax affairs from a dedicated chartered accountant</li>
-                        <li>Free company formation to get you started if you need one, and registration for all necessary taxes</li>
-                        <li>Free company dissolution once you're done  (Business Asset Disposal Relief can be provided for an additional charge)</li>
-                        <li>Free UK company registered office address and director’s correspondence address</li>
-                        <li>Payroll for directors can be provided on the annual scheme for an extra £8 per director per month</li>
-                    </ul>
-                </div>
-
-                <div class="page-blog">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6">
-                                <!-- Blog Item Start -->
-                                <div class="blog-item wow fadeInUp" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
-                                    <!-- Post Featured Image Start-->
-                                    <div class="post-featured-image">
-                                        <figure class="image-anime">
-                                            <a href="product-details.php"><img src="images/post-1.jpg" alt=""></a>
-                                        </figure>
-                                    </div>
-                                    <!-- Post Featured Image End -->
-
-                                    <!-- post Item Body Start -->
-                                    <div class="post-item-body">
-                                        <h2><a href="product-details.php">Limited Company packages</a></h2>
-                                        <p>starting at <span class="product-price">£65</span> per month</p>
-                                    </div>
-                                    <!-- Post Item Body End-->
-
-                                    <!-- Post Item Footer Start-->
-                                    <div class="post-item-footer">
-                                        <a href="product-details.php" class="btn-default">read more</a>
-                                    </div>
-                                    <!-- Post Item Footer End-->
-                                </div>
-                                <!-- Blog Item End -->
-                            </div>
-
-                            <div class="col-lg-4 col-md-6">
-                                <!-- Blog Item Start -->
-                                <div class="blog-item wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                                    <!-- Post Featured Image Start-->
-                                    <div class="post-featured-image">
-                                        <figure class="image-anime">
-                                            <a href="product-details.php"><img src="images/post-2.jpg" alt=""></a>
-                                        </figure>
-                                    </div>
-                                    <!-- Post Featured Image End -->
-
-                                    <!-- post Item Body Start -->
-                                    <div class="post-item-body">
-                                        <h2><a href="product-details.php">Self-Assessment / Self-employed packages</a></h2>
-                                        <p>starting at <span class="product-price">£15</span> per month</p>
-                                    </div>
-                                    <!-- Post Item Body End-->
-
-                                    <!-- Post Item Footer Start-->
-                                    <div class="post-item-footer">
-                                        <a href="product-details.php" class="btn-default">read more</a>
-                                    </div>
-                                    <!-- Post Item Footer End-->
-                                </div>
-                                <!-- Blog Item End -->
-                            </div>
-
-                            <div class="col-lg-4 col-md-6">
-                                <!-- Blog Item Start -->
-                                <div class="blog-item wow fadeInUp" data-wow-delay="0.75s" style="visibility: visible; animation-delay: 0.75s; animation-name: fadeInUp;">
-                                    <!-- Post Featured Image Start-->
-                                    <div class="post-featured-image">
-                                        <figure class="image-anime">
-                                            <a href="product-details.php"><img src="images/post-3.jpg" alt=""></a>
-                                        </figure>
-                                    </div>
-                                    <!-- Post Featured Image End -->
-
-                                    <!-- post Item Body Start -->
-                                    <div class="post-item-body">
-                                        <h2><a href="product-details.php">Umbrella packages</a></h2>
-                                        <p>starting at <span class="product-price">£22.50</span> per invoice</p>
-                                    </div>
-                                    <!-- Post Item Body End-->
-
-                                    <!-- Post Item Footer Start-->
-                                    <div class="post-item-footer">
-                                        <a href="product-details.php" class="btn-default">read more</a>
-                                    </div>
-                                    <!-- Post Item Footer End-->
-                                </div>
-                                <!-- Blog Item End -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
                 <div class="col-md-4">
                     <!-- Service Item Start -->
                     <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
@@ -317,7 +212,8 @@
                             </figure>
                         </div>
                         <div class="service-content">
-                            <h3>tax planning and preparation</h3>
+                            <h3>Limited Company packages</h3>
+                            <p>Starting at <span class="product-price">£65</span> per month</p>
                             <div class="service-readmore-btn">
                                 <a href="product-details.php" class="btn-default">read more</a>
                             </div>
@@ -335,7 +231,8 @@
                             </figure>
                         </div>
                         <div class="service-content">
-                            <h3>book keeping and accounting</h3>
+                            <h3>Self-Assessment / Self-employed packages</h3>
+                            <p>Starting at <span class="product-price">£15</span> per month</p>
                             <div class="service-readmore-btn">
                                 <a href="product-details.php" class="btn-default">read more</a>
                             </div>
@@ -353,7 +250,8 @@
                             </figure>
                         </div>
                         <div class="service-content">
-                            <h3>business advisory service</h3>
+                            <h3>Umbrella packages</h3>
+                            <p>Starting at <span class="product-price">£22.50</span> per invoice</p>
                             <div class="service-readmore-btn">
                                 <a href="product-details.php" class="btn-default">read more</a>
                             </div>

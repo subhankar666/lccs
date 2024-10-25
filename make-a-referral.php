@@ -3,13 +3,14 @@
 session_start();
 ob_start();
 
-include '../config.php';
-$connt = mysqli_connect($server, $user_name, $password, $database);
-mysqli_query($connt, "SELECT  @User := '{$_SESSION["username"]}'");
+// include '../config.php';
+
 //      mysqli_query($connt, "SELECT  @Year := '{$_SESSION["SubID"]}'");
 
 /////////////////////////////////////START OF POST FUNCTION!!!!!!!!!!!!!!!!!!!!!!/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $connt = mysqli_connect($server, $user_name, $password, $database);
+    mysqli_query($connt, "SELECT  @User := '{$_SESSION["username"]}'");
     global $myIncome;
     require '../configure.php';
     $connt = mysqli_connect($server, $user_name, $password, $database);
@@ -96,46 +97,34 @@ include 'header.php'
                             <div class="row">
                                 <div class="form-group col-md-6 mb-4">
                                     <label>Your details</label>
+                                    <input type="text" name="Referer_Firstname" class="form-control mt-3" id="Referer_Firstname"
+                                        placeholder="First Name" required="">
+                                    <div class="help-block with-errors"></div>
+
+                                    <input type="text" name="Referer_Surname" class="form-control mt-3" id="Referer_Surname" placeholder="Surname"
+                                        required="">
+                                    <div class="help-block with-errors"></div>
+
+                                    <input type="text" name="Referer_Email" class="form-control mt-3" id="Referer_Email" placeholder="Email address"
+                                            required="">
+                                    <div class="help-block with-errors"></div>
+
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
                                     <label>Their details</label>
-                                </div>
-
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="Referer_Firstname" class="form-control" id="Referer_Firstname"
+                                    <input type="text" name="Referee_Firstname" class="form-control mt-3" id="Referee_Firstname"
                                         placeholder="First Name" required="">
                                     <div class="help-block with-errors"></div>
-                                </div>
 
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="Referee_Firstname" class="form-control" id="Referee_Firstname"
-                                        placeholder="First Name" required="">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="Referer_Surname" class="form-control" id="Referer_Surname" placeholder="Surname"
+                                    <input type="text" name="Referee_Surname" class="form-control mt-3" id="Referee_Surname" placeholder="Surname"
                                         required="">
                                     <div class="help-block with-errors"></div>
-                                </div>
 
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="Referee_Surname" class="form-control" id="Referee_Surname" placeholder="Surname"
+                                    <input type="text" name="Referee_Email" class="form-control mt-3" id="Referee_Email" placeholder="Email address"
                                         required="">
                                     <div class="help-block with-errors"></div>
-                                </div>
 
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="Referer_Email" class="form-control" id="Referer_Email" placeholder="Email address"
-                                        required="">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-
-                                <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="Referee_Email" class="form-control" id="Referee_Email" placeholder="Email address"
-                                        required="">
-                                    <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="col-md-12">

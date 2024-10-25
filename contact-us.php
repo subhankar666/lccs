@@ -24,7 +24,7 @@
     <div class="contact-information">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <!-- Contact Info Item Start -->
                     <div class="contact-info-item wow fadeInUp" data-wow-delay="0.25s">
                         <!-- Contact Image Start -->
@@ -41,7 +41,7 @@
                                 <img src="images/icon-location.svg" alt="">
                             </div>
                             <div class="contact-info-content">
-                                <p>123, Lorem Ipsum, Street, City, Country 123456</p>
+                                <p>123, Lorem Ipsum, City, Country 123456</p>
                             </div>
                         </div>
                         <!-- Contact Info Box End -->
@@ -49,7 +49,7 @@
                     <!-- Contact Info Item End -->
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <!-- Contact Info Item Start -->
                     <div class="contact-info-item wow fadeInUp" data-wow-delay="0.5s">
                         <!-- Contact Image Start -->
@@ -75,7 +75,7 @@
                     <!-- Contact Info Item End -->
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <!-- Contact Info Item Start -->
                     <div class="contact-info-item wow fadeInUp" data-wow-delay="0.75s">
                         <!-- Contact Image Start -->
@@ -90,6 +90,32 @@
                         <div class="contact-info-box">
                             <div class="icon-box">
                                 <img src="images/icon-phone.svg" alt="">
+                            </div>
+                            <div class="contact-info-content">
+                                <p><a href="#">(+0)-123-456-789</a></p>
+                                <p><a href="#">(+0)-123-456-789</a></p>
+                            </div>
+                        </div>
+                        <!-- Contact Info Box End -->
+                    </div>
+                    <!-- Contact Info Item End -->
+                </div>
+
+                <div class="col-md-3">
+                    <!-- Contact Info Item Start -->
+                    <div class="contact-info-item wow fadeInUp" data-wow-delay="0.75s">
+                        <!-- Contact Image Start -->
+                        <div class="contact-image">
+                            <figure class="image-anime">
+                                <img src="images/phone-img.jpg" alt="">
+                            </figure>
+                        </div>
+                        <!-- Contact Image End -->
+
+                        <!-- Contact Info Box Start -->
+                        <div class="contact-info-box">
+                            <div class="icon-box">
+                                <img src="images/whatsapp-24.png" alt="">
                             </div>
                             <div class="contact-info-content">
                                 <p><a href="#">(+0)-123-456-789</a></p>
