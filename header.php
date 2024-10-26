@@ -58,12 +58,12 @@ $current_page = basename($_SERVER['REQUEST_URI'], ".php");
                                 <li class="nav-item <?php echo ($current_page == 'index') ? 'active' : ''; ?>"><a class="nav-link" href="index.php">Home</a></li>
                                 <li class="nav-item <?php echo ($current_page == 'about') ? 'active' : ''; ?>"><a class="nav-link" href="about.php">About Us</a></li>
                                 <li class="nav-item <?php echo ($current_page == 'contact-us') ? 'active' : ''; ?>"><a class="nav-link" href="contact-us.php">Contact us</a></li>
-                                <li class="nav-item submenu ">
+                                <li class="nav-item submenu <?php echo ($current_page == 'one-hour-tax-consultation' || $current_page == '30-minutes-online-meeting' || $current_page == '30-minutes-phone-call') ? 'active' : ''; ?>">
                                     <a class="nav-link" href="#">Book a Meeting</a>
                                     <ul>
-                                        <li class="nav-item"><a class="nav-link" href="https://calendly.com/lccs/free-tax-consultation">Free one hour online tax consultation</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="https://calendly.com/lccs/30-minute-phone-call">30 minute phone call</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="https://calendly.com/lccs/30min">30 minute online meeting</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="one-hour-tax-consultation.php">Free one hour online tax consultation</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="30-minutes-phone-call.php">30 minute phone call</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="30-minutes-online-meeting.php">30 minute online meeting</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item <?php echo ($current_page == 'make-a-referral') ? 'active' : ''; ?>"><a class="nav-link" href="make-a-referral.php">Make a Referral</a></li>

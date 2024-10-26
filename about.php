@@ -279,7 +279,7 @@
                 <div class="col-lg-4">
                     <!-- Section Btn Start -->
                     <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                        <a href="#" class="btn-default btn-highlighted btn-large">get started</a>
+                        <a href="contact-us.php" class="btn-default btn-highlighted btn-large">get started</a>
                     </div>
                     <!-- Section Btn End -->
                 </div>
@@ -326,7 +326,7 @@
 
                         <!-- Company Planning Footer Start -->
                         <div class="company-planning-footer wow fadeInUp" data-wow-delay="0.75s">
-                            <a href="#" class="btn-default">read more</a>
+                            <a href="contact-us.php" class="btn-default">read more</a>
                         </div>
                         <!-- Company Planning Footer End -->
                     </div>
@@ -354,7 +354,7 @@
                         <div class="section-body">
                             <p class="wow fadeInUp" data-wow-delay="0.25s">At vero eos et accusamus et iusto odio
                                 dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
-                            <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.5s">contact us</a>
+                            <a href="contact-us.php" class="btn-default wow fadeInUp" data-wow-delay="0.5s">contact us</a>
                         </div>
                         <!-- Section Body Btn End -->
                     </div>
